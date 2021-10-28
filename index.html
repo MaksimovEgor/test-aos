@@ -5,35 +5,118 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="viewport"
-      content="width=
-    , initial-scale=1.0"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
     />
-    <title>AOS best seller</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    
+   
     <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <title>AOS best seller</title>
   </head>
   <body>
     <div class="content">
-      <div class="content__slider"></div>
-      <div class="content__block1">
-        <div class="comtent__description1">
-          <h3>Изогнутость 1000P</h3>
+      <div class="block1">
+        <div class="sliderleft">
+          <div class="sliderleft__item">
+            <picture>
+              <source srcset="images/asset-p1vbgk-big.png" media="(min-width: 600px)">
+              <img src="images/asset-p1vbgk-big.png" alt="MDN">
+             </picture>
+          </div>
+          <div class="sliderleft__item">
+            <picture>
+              <source srcset="images/asset-pmlnhm-big.png" media="(min-width: 600px)">
+              <img src="images/asset-pmlnhm-big.png" alt="MDN">
+             </picture>
+          </div>
+          <div class="sliderleft__item">
+            <picture>
+              <source srcset="images/asset-qgowo9-big.png" media="(min-width: 600px)">
+              <img src="images/asset-qgowo9-big.png" alt="MDN">
+             </picture>
+          </div>
+          <div class="sliderleft__item">
+            <picture>
+              <source srcset="images/asset-ttyenk-big.png" media="(min-width: 600px)">
+              <img src="images/asset-ttyenk-big.png" alt="MDN">
+             </picture>
+          </div>
+        </div>
+
+        <div class="slider">
+          <div class="slider__item">
+            <img src="images/asset-p1vbgk-big.png" alt="" />
+          </div>
+          <div class="slider__item">
+            <img src="images/asset-pmlnhm-big.png" alt="" />
+          </div>
+          <div class="slider__item">
+            <img src="images/asset-qgowo9-big.png" alt="" />
+          </div>
+          <div class="slider__item">
+            <img src="images/asset-ttyenk-big.png" alt="" />
+          </div>
+        </div>
+
+        <div class="sliderright">
+          <div class="sliderright__item">
+            <img src="images/asset-p1vbgk-big.png" alt="" />
+          </div>
+          <div class="sliderright__item">
+            <img src="images/asset-pmlnhm-big.png" alt="" />
+          </div>
+          <div class="sliderright__item">
+            <img src="images/asset-qgowo9-big.png" alt="" />
+          </div>
+          <div class="sliderright__item">
+            <img src="images/asset-ttyenk-big.png" alt="" />
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="gallery"> <a> See product gallery </a> </div>
+
+      <div class="block2">
+        <div class="block2__text">
+          <h2 class="title">ИЗОГНУТОСТЬ <br />1000R</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel non
-            ducimus voluptatibus, recusandae ipsam doloribus tempora illo
-            dolorum saepe sit, repellendus nobis doloremque hic deleniti?
+            Радиус кривизны в 1000R - это наибольший радиус кривизны у игровых мониторов. Он 
+            дает несколько преимуществ: снижает нагрузку на глаза, уменьшает колличество бликов, 
+            увеличивает размеры воспринимаемого изображения и создает больший эффект погружения. Окунитесь в виртуальные миры вокруг вас
+            и получайте удовольствие от любимой игры и рекрасного обзора.
           </p>
         </div>
-        <img src="images/asset-dcc2vj-large.png" />
+        <img class="block2__img" src="images/asset-dcc2vj-large.png" alt="" />
       </div>
-      <div class="content__block2"></div>
+
+      <div class="block3">
+        
+        <div class="block3__text">
+          <h2 class="title">165 HZ ЧАСТОТА <br/>ОБНОВЛЕНИЯ</h2>
+          <p>
+            Частота обновления 165 гц, более чем в два раза больше по сравнению
+            со стандартом 60 Гц, превращает игры в истинное удовольствие. Реализуйте потенциал своего
+            видеоадаптера. Забудьте про разрывы изображения и попращайтесь с размытым изображением. 
+            Почувствуйте как ваши рефлексы преобразуются в непосредственные действия. Никогда не оглядывайтесь.
+          </p>
+        </div>
+        
+
+        <img class="block3__img" src="images/asset-laputi-large.png" alt="" />
+      </div>
     </div>
 
-    <script src="js/swiper.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="/js/script.js"></script>
   </body>
 </html>
